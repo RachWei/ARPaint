@@ -7,7 +7,8 @@
 //
 
 import XCTest
-@testable import ARPlaneDetector
+//@testable import ARPlaneDetector
+@testable import ARPainting
 
 class ARPaintingTests: XCTestCase {
     

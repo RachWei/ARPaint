@@ -15,8 +15,15 @@
 		57FD138B202CD1E600C2AF98 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 57FD1389202CD1E600C2AF98 /* LaunchScreen.storyboard */; };
 		57FD1396202CD1E600C2AF98 /* ARPaintingTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57FD1395202CD1E600C2AF98 /* ARPaintingTests.swift */; };
 		57FD13A1202CD1E600C2AF98 /* ARPaintingUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57FD13A0202CD1E600C2AF98 /* ARPaintingUITests.swift */; };
-		57FD13AF202CD56900C2AF98 /* ARSceneManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57FD13AE202CD56900C2AF98 /* ARSceneManager.swift */; };
 		57FD13B1202CED9500C2AF98 /* Plane.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57FD13B0202CED9500C2AF98 /* Plane.swift */; };
+		5F44D1842460F4130023E2E1 /* SceneExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F44D1832460F4130023E2E1 /* SceneExtension.swift */; };
+		5F44D1882470A5CD0023E2E1 /* TextManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F44D1872470A5CD0023E2E1 /* TextManager.swift */; };
+		5F44D18E247467170023E2E1 /* Colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F44D18D247467170023E2E1 /* Colors.swift */; };
+		5FAD8C5B247B0A7400FD9D44 /* SwiftHSVColorPicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FAD8C5A247B0A7400FD9D44 /* SwiftHSVColorPicker.swift */; };
+		5FAD8C5D247B0A9400FD9D44 /* SelectedColorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FAD8C5C247B0A9300FD9D44 /* SelectedColorView.swift */; };
+		5FAD8C5F247B0AA000FD9D44 /* ColorWheel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FAD8C5E247B0AA000FD9D44 /* ColorWheel.swift */; };
+		5FAD8C61247B0AAD00FD9D44 /* ColorUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FAD8C60247B0AAD00FD9D44 /* ColorUtils.swift */; };
+		5FAD8C63247B0ABA00FD9D44 /* BrightnessView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FAD8C62247B0ABA00FD9D44 /* BrightnessView.swift */; };
 		5FE36B792454CDFD009A4E6D /* PointNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FE36B782454CDFD009A4E6D /* PointNode.swift */; };
 		5FE36B7B2454CE3F009A4E6D /* VirtualObjectManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FE36B7A2454CE3F009A4E6D /* VirtualObjectManager.swift */; };
 		5FE36B7F2454D079009A4E6D /* Utilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FE36B7E2454D079009A4E6D /* Utilities.swift */; };
@@ -54,8 +61,15 @@
 		57FD139C202CD1E600C2AF98 /* ARPaintingUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ARPaintingUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		57FD13A0202CD1E600C2AF98 /* ARPaintingUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARPaintingUITests.swift; sourceTree = "<group>"; };
 		57FD13A2202CD1E600C2AF98 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		57FD13AE202CD56900C2AF98 /* ARSceneManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARSceneManager.swift; sourceTree = "<group>"; };
 		57FD13B0202CED9500C2AF98 /* Plane.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Plane.swift; sourceTree = "<group>"; };
+		5F44D1832460F4130023E2E1 /* SceneExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneExtension.swift; sourceTree = "<group>"; };
+		5F44D1872470A5CD0023E2E1 /* TextManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextManager.swift; sourceTree = "<group>"; };
+		5F44D18D247467170023E2E1 /* Colors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Colors.swift; sourceTree = "<group>"; };
+		5FAD8C5A247B0A7400FD9D44 /* SwiftHSVColorPicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftHSVColorPicker.swift; sourceTree = "<group>"; };
+		5FAD8C5C247B0A9300FD9D44 /* SelectedColorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectedColorView.swift; sourceTree = "<group>"; };
+		5FAD8C5E247B0AA000FD9D44 /* ColorWheel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorWheel.swift; sourceTree = "<group>"; };
+		5FAD8C60247B0AAD00FD9D44 /* ColorUtils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorUtils.swift; sourceTree = "<group>"; };
+		5FAD8C62247B0ABA00FD9D44 /* BrightnessView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BrightnessView.swift; sourceTree = "<group>"; };
 		5FE36B782454CDFD009A4E6D /* PointNode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = PointNode.swift; path = ../../../../../Documents/PointNode.swift; sourceTree = "<group>"; };
 		5FE36B7A2454CE3F009A4E6D /* VirtualObjectManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = VirtualObjectManager.swift; path = ../../../../../Documents/VirtualObjectManager.swift; sourceTree = "<group>"; };
 		5FE36B7E2454D079009A4E6D /* Utilities.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utilities.swift; sourceTree = "<group>"; };
@@ -111,15 +125,22 @@
 			children = (
 				57FD137E202CD1E400C2AF98 /* AppDelegate.swift */,
 				57FD1382202CD1E400C2AF98 /* ViewController.swift */,
-				57FD13AE202CD56900C2AF98 /* ARSceneManager.swift */,
 				57FD13B0202CED9500C2AF98 /* Plane.swift */,
 				5752760C202DF2E4003F7F6A /* GridMaterial.swift */,
+				5F44D1872470A5CD0023E2E1 /* TextManager.swift */,
+				5F44D18D247467170023E2E1 /* Colors.swift */,
+				5FAD8C5A247B0A7400FD9D44 /* SwiftHSVColorPicker.swift */,
+				5FAD8C5C247B0A9300FD9D44 /* SelectedColorView.swift */,
+				5FAD8C5E247B0AA000FD9D44 /* ColorWheel.swift */,
+				5FAD8C60247B0AAD00FD9D44 /* ColorUtils.swift */,
+				5FAD8C62247B0ABA00FD9D44 /* BrightnessView.swift */,
 				5FE36B752454CDE2009A4E6D /* Virtual Objects */,
 				5FE36B7D2454D05D009A4E6D /* Extensions */,
 				57FD1384202CD1E400C2AF98 /* Main.storyboard */,
 				57FD1387202CD1E600C2AF98 /* Assets.xcassets */,
 				57FD1389202CD1E600C2AF98 /* LaunchScreen.storyboard */,
 				57FD138C202CD1E600C2AF98 /* Info.plist */,
+				5F44D1832460F4130023E2E1 /* SceneExtension.swift */,
 			);
 			path = ARPainting;
 			sourceTree = "<group>";
@@ -291,13 +312,20 @@
 			buildActionMask = 2147483647;
 			files = (
 				5752760D202DF2E4003F7F6A /* GridMaterial.swift in Sources */,
+				5FAD8C61247B0AAD00FD9D44 /* ColorUtils.swift in Sources */,
+				5F44D18E247467170023E2E1 /* Colors.swift in Sources */,
 				5FE36B7F2454D079009A4E6D /* Utilities.swift in Sources */,
-				57FD13AF202CD56900C2AF98 /* ARSceneManager.swift in Sources */,
+				5F44D1882470A5CD0023E2E1 /* TextManager.swift in Sources */,
 				5FE36B792454CDFD009A4E6D /* PointNode.swift in Sources */,
+				5F44D1842460F4130023E2E1 /* SceneExtension.swift in Sources */,
+				5FAD8C5B247B0A7400FD9D44 /* SwiftHSVColorPicker.swift in Sources */,
 				57FD1383202CD1E400C2AF98 /* ViewController.swift in Sources */,
 				57FD13B1202CED9500C2AF98 /* Plane.swift in Sources */,
+				5FAD8C5F247B0AA000FD9D44 /* ColorWheel.swift in Sources */,
+				5FAD8C5D247B0A9400FD9D44 /* SelectedColorView.swift in Sources */,
 				57FD137F202CD1E400C2AF98 /* AppDelegate.swift in Sources */,
 				5FE36B7B2454CE3F009A4E6D /* VirtualObjectManager.swift in Sources */,
+				5FAD8C63247B0ABA00FD9D44 /* BrightnessView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
